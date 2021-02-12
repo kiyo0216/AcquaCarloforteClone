@@ -7,10 +7,17 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-load-script`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        src: `/js/webflow.js`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
+      options: {
+        google: {
+          families: ['Montserrat', 'Cormorant Garamond'],
+        }
       },
     },
     `gatsby-transformer-sharp`,
