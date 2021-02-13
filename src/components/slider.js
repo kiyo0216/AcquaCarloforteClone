@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
 const Container = styled(animated.div)`
-  height: 582px;
+  height: 584px;
   width: 55vw;
   overflow-x: hidden;
   
@@ -27,6 +27,7 @@ const Item = styled(animated.div)`
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
+  outline: none;
 `
 
 const Image = styled(animated.img)`

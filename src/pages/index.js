@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet"
 import { CarouselContext } from '../contexts'
 import Carousel from "../components/carousel"
 import SliderSection from "../components/slider"
-import SEO from "../components/seo"
 
 function IndexPage() {
   const [carouselIndex, setCarouselIndex] = useState(0)
@@ -13,20 +12,9 @@ function IndexPage() {
   return(
     <div>
       <Helmet>
-        <html data-wf-page="60165d2a45ef1c92874b0c63" data-wf-site="60165d2a45ef1c835c4b0c62" />
-        <meta charSet="utf-8" />
-        <title>Acqua Carloforte - Sardegna</title>
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-        <meta content="Webflow" name="generator" />
-        <link href="css/normalize.css" rel="stylesheet" type="text/css" />
-        <link href="css/webflow.css" rel="stylesheet" type="text/css" />
-        <link href="css/acqua-carloforte.webflow.css" rel="stylesheet" type="text/css" />
-        <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
-        <link href="images/webclip.png" rel="apple-touch-icon" />
-        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=60165d2a45ef1c835c4b0c62" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=600d09fe5f83968daa7da25d" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossOrigin="anonymous"></script>
         <script src="js/webflow.js" type="text/javascript"></script>
       </Helmet>
-      <SEO title="Home" />	
       <div className="header" style={{ backgroundColor: `${color[carouselIndex]}`}}>
         <div className="navbar">
           <div className="logo"><img src="images/Logo.png" loading="lazy" alt="" className="image" /></div>
