@@ -9,7 +9,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-load-script`,
       options: {
-        src: `/js/webflow.js`,
+        src: 'js/webflow.js'
+      },
+    },
+    {
+      resolve: `gatsby-plugin-load-script`,
+      options: {
+        src: 'js/jquery-3.5.1.min.js'
       },
     },
     {

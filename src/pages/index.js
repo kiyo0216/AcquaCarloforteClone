@@ -12,8 +12,8 @@ function IndexPage() {
   return(
     <div>
       <Helmet>
-        <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=600d09fe5f83968daa7da25d" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossOrigin="anonymous"></script>
         <script src="js/webflow.js" type="text/javascript"></script>
+        <script src="js/jquery-3.5.1.min.js" type="text/javascript"></script>
       </Helmet>
       <div className="header" style={{ backgroundColor: `${color[carouselIndex]}`}}>
         <div className="navbar">
